@@ -1,0 +1,639 @@
+/*---- Global
+            -----*/
+body {
+    font-family: 'Helvetica', sans-serif;
+    /* font-family: 'Fauna One', serif; */
+    /*background: url('/port/img/soft_wallpaper.png') repeat; */
+    
+    background: url('/port/img/title_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0 0 2px 0;
+}
+
+.notation {
+    display: block;
+    font-style: italic;
+    font-size: 10px;
+    color: #FFF;
+    margin-top: 40px;
+}
+
+/*---- Overrides
+            -----*/
+
+.fa-envelope {
+    float: left;
+}
+a.menu-icon {
+    text-indent: inherit;
+    margin: 11px 0 0 12px;
+    position: fixed;
+    z-index: 51;
+}
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+    background-color: rgba(255,255,255,0.3); 
+}
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover,
+.sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {
+    background-color: transparent; 
+}
+
+#nav.fixed .sub-nav {
+    margin-left: 3%;
+}
+
+[data-magellan-expedition] .sub-nav {
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+[data-magellan-expedition] .sub-nav .active {
+    line-height: inherit;
+}
+
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+    line-height: 34px;
+}
+
+/*---- Trust
+            -----*/
+
+#trust {
+    margin: 200px auto;
+    width: 500px;
+    background-color: rgba(255,255,255,0.6);
+    padding: 20px;
+}
+
+
+/*---- Home
+            -----*/
+#home {
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(168,142,119,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(168,142,119,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(168,142,119,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(168,142,119,0.5) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(168,142,119,0.5) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(168,142,119,0.5) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#80a88e77',GradientType=0 ); /* IE6-9 */
+}
+
+#header h1 {
+    font-size: 5em;
+    margin: 0;
+    color: #9BBEBD;
+    padding-top: 37px;
+}
+#header h1 img {
+    width:457px;
+    height: 110px;
+}
+#header h5 {
+    font-family: 'Fenix', serif;
+    /* font-family: 'Fauna One', serif; */
+}
+
+#books {
+    padding: 150px 0 0 0;
+    height: 1000px;
+}
+#books #book_row {
+    display: none;
+}
+#books #book_row div {
+    height: 172px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.past_book img {
+    width: 88px;
+    height: 137px;
+}
+.active_book img {
+    width: 95px;
+    height: 137px;
+}
+.zerista_book img {
+    width: 83px;
+    height: 128px;
+}
+.ocm_book img {
+    width: 86px;
+    height: 137px;
+}
+.bluemodus_book img {
+    width: 78px;
+    height: 139px;
+}
+.future_book img {
+    width: 79px;
+    height: 139px;
+}
+
+#nav {
+    height: 56px;
+    margin-left: 0;
+    background: transparent;
+    display: none;
+}
+
+#nav dd {
+    margin-left: 0;
+}
+#nav dd a {
+    color: #FFF;
+    line-height: 34px;
+}
+#nav.fixed dd a {
+    color: #FFF;
+}
+
+
+#nav.fixed {
+    background-color: rgba(62,53,58,1);
+    display: none;
+    
+}
+#nav.fixed #timeline {
+    height: 20px;
+}
+#timeline {
+    width: 100%;
+}
+#nav hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+}
+#nav.fixed hr {
+    border-top: 1px solid rgba(255, 255, 255, 1);
+}
+
+.reveal-modal {
+    position: fixed;
+    top: 300px !important;
+}
+
+/*---- Pages
+            -----*/
+
+#pages .content_page {
+    padding: 0 0 40px 0;
+    min-height: 1000px;
+}
+#pages .content_page p,
+#pages .content_page li
+{
+    font-size: 0.75rem;
+    line-height: 1.4;
+}
+#pages .content_page p {
+    text-align: justify;
+    /* text-justify: inter-word; */
+}
+
+.content_page h5 {
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.pagerow {
+    margin-bottom: 40px;
+}
+
+.skills .progress {
+    background: #6F9AA8;
+    border: 2px solid white;
+    padding: 0;
+}
+.skills .progress .meter {
+    float: left;
+    background: #b36d49;
+}
+.skill_label {
+    margin: 0 0 0 5px;
+    float: left;
+    color: #FFF;
+    font-size: 80%;
+    line-height: 22px;
+}
+
+.header_row {
+    padding-top: 120px;
+}
+.header_row h1, .header_row h3 {
+    float: left;
+    display: inline-block;
+    font-size: 76px;
+    line-height: 57px;
+    margin-right: 6px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+}
+.header_date {
+    margin: 0;
+    width: 56px;
+    height: 56px;
+    padding: 12px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: normal;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.header_company {
+    margin: 0;
+}
+.header_byline {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    float: left;
+    margin-top: 41px;
+}
+
+.story blockquote {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    width: 278px;
+    border-left: 1px solid #f2f2f2;
+}
+.story blockquote:before {
+  color: #656162;
+  /* content: open-quote; */
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.15em;
+  vertical-align: -0.4em;
+}
+.story blockquote p {
+  display: inline;
+}
+
+.takeaways {
+    padding: 0.5375rem 0;
+}
+.takeaways h3 {
+    font-size: .75rem;
+    margin: 0 0 2px 0;
+    font-weight: bold;
+}
+.takeaways_title {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    opacity: 0.75;
+    margin: 0;
+    position: absolute;
+    font-weight: bold;
+    top: -41px;
+    left: -1px;
+}
+
+.accomplishment, .mistake {
+    width: 220px;
+    height: 220px;
+    -moz-border-radius: 110px;
+    -webkit-border-radius: 110px;
+    border-radius: 110px;
+    padding: 30px;
+    text-align: center;
+}
+#pages .accomplishment p,
+#pages .mistake p {
+    text-align: center;
+    /*
+    display: table-cell;
+    vertical-align: middle;
+    height: 113px;
+    */
+}
+.mistake h3,
+.accomplishment h3 {
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.achievements h3 {
+    font-size: 1.1rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+.achievements ul {
+    list-style: none;
+    margin: 0;
+}
+.achievements ul li {
+    margin-bottom: 18px;
+}
+.achievements h5 {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.achievements small {
+    font-style: italic;
+}
+.achievements ul li i {
+    float: left;
+    margin-right: 8px;
+}
+
+.gallery li {
+    margin: 0 0 6px 0;
+    border: 4px solid #FFF;
+}
+
+.me img {
+    transform:rotate(20deg);
+    -ms-transform:rotate(20deg); /* IE 9 */
+    -webkit-transform:rotate(20deg); /* Opera, Chrome, and Safari */
+    width: 160px;
+}
+
+#footer {
+    background: #f2f2f2;
+    height: 200px;
+}
+
+
+#past {
+background: url('/port/img/past_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#active {
+    background: url('/port/img/active_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#zerista {
+    background: url('/port/img/zerista_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#ocm {
+    background: url('/port/img/ocm_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#bluemodus {
+    background: url('/port/img/bm_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#future {
+    background: url('/port/img/future_bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*---- past
+            -----*/
+
+#past .pagerow,
+#past .header_row h1,
+#past .header_row h3,
+#past .takeaways,
+#past .accomplishment,
+#past .mistake,
+#past .accomplishment h3,
+#past .mistake h3,
+#past .takeaways p,
+#past .takeaways h3,
+#past .header_date,
+#past .story blockquote,
+#past .takeaways_title {
+    color: #201535;
+}
+#past h3,
+#past h5,
+#past .takeaways_title,
+#past .achievements,
+.achievements h3,
+.achievements h5 {
+    color:#201535;
+}
+
+#past .accomplishment,
+#past .mistake,
+#past .takeaways,
+#past .header_date {
+    background-color:rgba(232,218,173,0.7);
+}
+
+#past .me img {
+    width: 236px;
+}
+
+/*---- active
+            -----*/
+
+#active .pagerow,
+#active .header_row h1,
+#active .header_row h3,
+#active .takeaways,
+#active .accomplishment,
+#active .mistake,
+#active .accomplishment h3,
+#active .mistake h3,
+#active .takeaways p,
+#active .takeaways h3,
+#active .header_date,
+#active .story blockquote,
+#active .takeaways_title {
+    color: #3e353a;
+}
+#active h3,
+#active h5,
+#active .takeaways_title,
+#active .achievements,
+.achievements h3,
+.achievements h5 {
+    color: #FFF;
+}
+
+#active .accomplishment,
+#active .mistake,
+#active .takeaways,
+#active .header_date {
+    background-color:rgba(91,166,206,0.55);
+}
+
+/*---- Zerista
+            -----*/
+
+#zerista .pagerow,
+#zerista .header_row h1,
+#zerista .header_row h3,
+#zerista .takeaways,
+#zerista .accomplishment,
+#zerista .mistake,
+#zerista .accomplishment h3,
+#zerista .mistake h3,
+#zerista .takeaways p,
+#zerista .takeaways h3,
+#zerista .header_date,
+#zerista .story blockquote,
+#zerista .takeaways_title {
+    color: #3e3d45;
+}
+#zerista h3,
+#zerista h5,
+#zerista .takeaways_title,
+#zerista .achievements,
+.achievements h3,
+.achievements h5 {
+    color: #FFF;
+}
+
+#zerista .accomplishment,
+#zerista .mistake,
+#zerista .takeaways,
+#zerista .header_date {
+    background-color:rgba(255,255,255,0.6);
+}
+
+/*---- OCM
+            -----*/
+
+#ocm .pagerow,
+#ocm .header_row h3,
+#ocm .story blockquote,
+#ocm .takeaways_title {
+    color: #eee8de;
+}
+#ocm .takeaways,
+#ocm .takeaways p,
+#ocm .takeaways h3,
+#ocm .mistake,
+#ocm .accomplishment,
+#ocm .accomplishment h3,
+#ocm .mistake h3,
+#ocm .header_date,
+#ocm .header_row h1 {
+    color:#2b575a;
+}
+
+#ocm h3,
+#ocm h5,
+#ocm .takeaways_title,
+#ocm .achievements,
+.achievements h3,
+.achievements h5 {
+    color: #eee8de;
+}
+
+#ocm .accomplishment,
+#ocm .mistake,
+#ocm .takeaways,
+#ocm .header_date {
+    background-color:rgba(238,232,222,0.6);
+}
+
+/*---- BlueModus
+            -----*/
+
+#bluemodus .pagerow,
+#bluemodus .header_row h1,
+#bluemodus .header_row h3,
+#bluemodus .takeaways,
+#bluemodus .accomplishment,
+#bluemodus .mistake,
+#bluemodus .accomplishment h3,
+#bluemodus .mistake h3,
+#bluemodus .takeaways p,
+#bluemodus .takeaways h3,
+#bluemodus .header_date,
+#bluemodus .story blockquote,
+#bluemodus .takeaways_title {
+    color: #3e3d45;
+}
+#bluemodus h3,
+#bluemodus h5,
+#bluemodus .takeaways_title,
+#bluemodus .achievements,
+.achievements h3,
+.achievements h5 {
+    color: #FFF;
+}
+
+#bluemodus .accomplishment,
+#bluemodus .mistake,
+#bluemodus .takeaways,
+#bluemodus .header_date {
+    background-color:rgba(255,255,255,0.6);
+}
+
+/*---- Future
+            -----*/
+
+#future .pagerow,
+#future .header_row h3,
+#future .takeaways,
+#future .accomplishment,
+#future .mistake,
+#future .accomplishment h3,
+#future .mistake h3,
+#future .takeaways p,
+#future .takeaways h3,
+#future .header_date,
+#future .story blockquote,
+#future .takeaways_title {
+    color: #FFF;
+}
+
+#future .header_row h1,
+#future .header_byline {
+    color: #c6a77f;
+}
+#future h3,
+#future h5,
+#future .takeaways_title,
+#future .achievements,
+.achievements h3,
+.achievements h5 {
+    color: #c6a77f;
+}
+
+#future .accomplishment,
+#future .mistake,
+#future .takeaways,
+#future .header_date {
+    background-color:rgba(107,139,124,0.6);
+}
+
+
+
+
+
+
+
+
