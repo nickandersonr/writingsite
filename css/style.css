@@ -1,0 +1,40 @@
+/*---- Global
+            -----*/
+body {
+    font-family: 'Helvetica', sans-serif;
+    /* font-family: 'Fauna One', serif; */
+    /*background: url('/port/img/soft_wallpaper.png') repeat; */
+    
+    background: #dcdcde; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+  margin-top: 40px;
+}
+
+#me {
+  background:url('https://d262ilb51hltx0.cloudfront.net/fit/c/817/817/0*5Q5kV4onis5SH9W_.jpeg') no-repeat;
+  background-size:144px 144px;
+  height:144px;
+  width:144px;
+  border-radius:50%;
+  overflow:hidden;
+  margin:auto;
+  box-shadow: 0 0 18px 11px #333 inset;
+}
+
+#headline {
+  margin-top: 40px;
+}
+
+#blurb {
+  margin-top: 40px;
+}
+#blurb p {
+  margin-bottom: .25rem;
+  font-size: 1.35rem;
+}
