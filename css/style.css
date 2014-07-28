@@ -38,3 +38,20 @@ body {
   margin-bottom: .25rem;
   font-size: 1.35rem;
 }
+
+.icon_social {
+  width: 35px;
+}
+.icon_social svg {
+  width: 35px;
+  max-height: 40px;
+}
+.icon_social svg path {
+  fill: #9c9c9c;
+}
+#icon_twitter svg path:hover {
+  fill: #2aa9e0;
+}
+#icon_facebook svg path:hover {
+  fill: #3c5a99;
+}
