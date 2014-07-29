@@ -93,17 +93,49 @@ body {
 
 #Container .mix{
   display: none;
+  text-align: left;
+}
+#sort, #filter {
+  float: left;
+}
+#sort {
+  margin-left:30px;
+}
+.sort, .filter {
+  float: left;
+  padding: 4px 10px;
+  border: 1px solid #CCC;
+  margin-right: 10px;
+}
+.sort.active, .filter.active {
+  color: #FFF;
+  border: 1px solid #FFF;
+  background: #CCC;
 }
 
 
 .book_cover {
-  /*
-  width: 273px;
-  height: 376px;
-  */
+  width: 546px;
+  height: 752px;
 }
 
-
+.book_details {
+  height: 188px;
+  padding: 0 84px;
+  position: relative;
+  top: -32px;
+}
+.date {
+  color: #999999;
+  font-style: italic;
+  margin-bottom: 0;
+}
+.book_title {
+  font-weight: bold;
+}
+.book_desc {
+  color: #222;
+}
 
 
 
