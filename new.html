@@ -99,26 +99,29 @@
 	</p>
       </div>
     </div>
-    <div class="row">
+    <div id="sortfilter" class="row">
       <div id="filter">
 	<div class="medium-12 columns">
-	  <div class="filter" data-filter="all">Show All</div>
-	  <div class="filter" data-filter=".medium">Medium</div>
-	  <div class="filter" data-filter=".nerve">Nerve</div>
-	  <div class="filter" data-filter=".project">Project</div>
+	  <div class="filter" data-filter="all"><span class="circle">&nbsp;</span><p>All</p></div>
+	  <div class="filter" data-filter=".fiction"><span class="circle">&nbsp;</span><p>Fiction</p></div>
+	  <div class="filter" data-filter=".essays"><span class="circle">&nbsp;</span><p>Essays</p></div>
+	  <!--div class="filter" data-filter=".poetry"><span class="circle">&nbsp;</span>Poetry</div-->
+	  <!--div class="filter" data-filter=".medium"><span class="circle">&nbsp;</span>Medium</div>
+	  <div class="filter" data-filter=".nerve"><span class="circle">&nbsp;</span>Nerve</div>
+	  <div class="filter" data-filter=".project"><span class="circle">&nbsp;</span>Project</div-->
 	</div>
       </div>
       <div id="sort">
 	<div class="medium-12 columns">
 	  <!--div class="sort" data-sort="default">Default</div-->
-	  <div class="sort active" data-sort="myorder:desc">Newest First</div>
-	  <div class="sort" data-sort="myorder:asc">Oldest First</div>
-	  <div class="sort" data-sort="random">Random</div>
+	  <div class="sort active" data-sort="myorder:desc"><span class="circle">&nbsp;</span><p>Newest</p></div>
+	  <div class="sort" data-sort="myorder:asc"><span class="circle">&nbsp;</span><p>Oldest</p></div>
+	  <div class="sort" data-sort="random"><span class="circle">&nbsp;</span><p>Random</p></div>
 	</div>
       </div>
     </div>
 	<div id="Container">
-	    <a href="https://medium.com/the-disaster-book/dessserts-684147827d79" target="_blank" class="mix medium" data-myorder="12">
+	    <a href="https://medium.com/the-disaster-book/dessserts-684147827d79" target="_blank" class="mix medium fiction" data-myorder="12">
 	      <img class="book_cover" src="img/books/Medium/Desserts.jpg">
 	      <div class="book_details">
 		<p class="date">2014</p>
@@ -132,7 +135,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="https://medium.com/the-disaster-book/higher-education-27f881898946" target="_blank" class="mix medium" data-myorder="10">
+	    <a href="https://medium.com/the-disaster-book/higher-education-27f881898946" target="_blank" class="mix medium fiction" data-myorder="10">
 	      <img class="book_cover" src="img/books/Medium/HE.jpg">
 	      <div class="book_details">
 		<p class="date">2014</p>
@@ -146,7 +149,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="https://medium.com/the-disaster-book/certain-types-of-confusion-f987b06af0f7" target="_blank" class="mix medium" data-myorder="5">
+	    <a href="https://medium.com/the-disaster-book/certain-types-of-confusion-f987b06af0f7" target="_blank" class="mix medium fiction" data-myorder="5">
 	      <img class="book_cover" src="img/books/Medium/CToC.jpg">
 	      <div class="book_details">
 		<p class="date">2011</p>
@@ -160,7 +163,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="#" target="_blank" class="mix medium" data-myorder="6">
+	    <a href="#" target="_blank" class="mix medium fiction" data-myorder="6">
 	      <img class="book_cover" src="img/books/Medium/TAP.jpg">
 	      <div class="book_details">
 		<p class="date">2012</p>
@@ -174,7 +177,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="https://medium.com/the-disaster-book/the-trade-8292e4a8d367" target="_blank" class="mix medium" data-myorder="4">
+	    <a href="https://medium.com/the-disaster-book/the-trade-8292e4a8d367" target="_blank" class="mix medium fiction" data-myorder="4">
 	      <img class="book_cover" src="img/books/Medium/TheTrade.jpg">
 	      <div class="book_details">
 		<p class="date">2010</p>
@@ -189,7 +192,7 @@
 	      </div>
 	    </a>
 	    
-	    <a href="http://www.nerve.com/love/keys-to-the-circus-giving-up-the-magic-of-office-romances" target="_blank" class="mix nerve" data-myorder="11">
+	    <a href="http://www.nerve.com/love/keys-to-the-circus-giving-up-the-magic-of-office-romances" target="_blank" class="mix nerve essays" data-myorder="11">
 	      <img class="book_cover" src="img/books/Nerve/Coworkers.jpg">
 	      <div class="book_details">
 		<p class="date">2014</p>
@@ -203,7 +206,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="http://www.swimmingly.com/dating/couples/i-met-my-crazy-awesome-girlfriend-when-she-humped-a-mic-stand-and-sang-push-it/" target="_blank" class="mix nerve" data-myorder="8">
+	    <a href="http://www.swimmingly.com/dating/couples/i-met-my-crazy-awesome-girlfriend-when-she-humped-a-mic-stand-and-sang-push-it/" target="_blank" class="mix nerve essays" data-myorder="8">
 	      <img class="book_cover" src="img/books/Nerve/MeetCute.jpg">
 	      <div class="book_details">
 		<p class="date">2014</p>
@@ -217,7 +220,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="http://www.nerve.com/love/tag-unrequited-love-true-story-nick-anderson" target="_blank" class="mix nerve" data-myorder="9">
+	    <a href="http://www.nerve.com/love/tag-unrequited-love-true-story-nick-anderson" target="_blank" class="mix nerve essays" data-myorder="9">
 	      <img class="book_cover" src="img/books/Nerve/tag.jpg">
 	      <div class="book_details">
 		<p class="date">2014</p>
@@ -232,7 +235,7 @@
 	      </div>
 	    </a>
 	    
-	    <a href="#" target="_blank" class="mix project" data-myorder="7">
+	    <a href="#" target="_blank" class="mix project fiction" data-myorder="7">
 	      <img class="book_cover" src="img/books/Project/SCcover.jpg">
 	      <div class="book_details">
 		<p class="date">2013</p>
@@ -246,7 +249,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="http://haikusforsadtumblrgirls.tumblr.com/" target="_blank" class="mix project" data-myorder="3">
+	    <a href="http://haikusforsadtumblrgirls.tumblr.com/" target="_blank" class="mix project fiction" data-myorder="3">
 	      <img class="book_cover" src="img/books/Project/HaikusBook.jpg">
 	      <div class="book_details">
 		<p class="date">2011</p>
@@ -260,7 +263,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="#" target="_blank" class="mix project" data-myorder="2">
+	    <a href="#" target="_blank" class="mix project essays" data-myorder="2">
 	      <img class="book_cover" src="img/books/Project/TheChaseBook.jpg">
 	      <div class="book_details">
 		<p class="date">2010</p>
@@ -274,7 +277,7 @@
 		</p>
 	      </div>
 	    </a>
-	    <a href="http://nickandersonswebsite.com/girlthings.html" target="_blank" class="mix project" data-myorder="1">
+	    <a href="http://nickandersonswebsite.com/girlthings.html" target="_blank" class="mix project essays" data-myorder="1">
 	      <img class="book_cover" src="img/books/Project/GirlThingsBook.jpg">
 	      <div class="book_details">
 		<p class="date">2010</p>
