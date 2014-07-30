@@ -181,13 +181,17 @@ body {
 
 
 .book_cover {
+  /*
   width: 546px;
   height: 752px;
+  */
+  width: 410px;
+  height: 564px;
 }
 
 .book_details {
   height: 188px;
-  padding: 0 84px;
+  padding: 0 65px;
   position: relative;
   top: -32px;
 }
