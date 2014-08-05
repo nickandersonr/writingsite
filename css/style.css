@@ -248,6 +248,11 @@ body {
     font-size: 1.10rem;
     line-height: 1.4;
   }
+  #sortfilter {
+    position: relative;
+    top: 0px;
+    z-index: 3;
+  }
 }
 
 /* // Medium screens  */
@@ -262,7 +267,7 @@ body {
   }
   #sortfilter {
     position: relative;
-    top: 18px;
+    top: 0px;
     z-index: 3;
   }
 }
