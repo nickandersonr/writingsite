@@ -263,6 +263,7 @@ body {
   #sortfilter {
     position: relative;
     top: 18px;
+    z-index: 3;
   }
 }
 
