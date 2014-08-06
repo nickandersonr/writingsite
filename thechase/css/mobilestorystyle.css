@@ -1,0 +1,77 @@
+.huge_text {
+	font-size: 70px;
+	margin:10px 0 10px 0;
+	padding:0;
+	text-align: center;
+	/*text-shadow: 2px 3px 6px #292929;
+	-webkit-text-stroke: 2px #FFF;
+	color:#d5d5d5;*/
+	text-shadow: 2px 3px 3px #292929;
+	-webkit-text-stroke: 1px white;
+	color:#a2a2a2;
+}
+.kinda_huge_text_light {
+	font-size: 60px;
+	margin:10px 0 10px 0;
+	padding:0;
+	text-align: center;
+	text-shadow: 2px 3px 3px #d5d5d5;
+	-webkit-text-stroke: 1px white;
+}
+.kinda_huge_text {
+	font-size: 60px;
+	margin:10px 0 10px 0;
+	padding:0;
+	text-align: center;
+}
+.storylist_title {
+	text-shadow: 0px 1px 0px #e5e5ee;
+}
+.story_list h3 {
+	font-size:18px;
+	padding:0 0 7px 0;
+	margin:0;
+}
+.story_header {
+	text-shadow: 2px 3px 3px #292929;
+	-webkit-text-stroke: 1px white;
+}
+.story_summary {
+	font-size: 10px;
+	font-style: italic;
+}
+.HowIMet {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#013440), to(#485e63));
+	background-color:#013440; 
+	color:#FFF;
+}
+.HowIMet a h3, .HowIMet a p {
+	color:#FFF;
+}
+.AThirdTheTrinity {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#F2A0A0), to(#f8b6b6));
+	background-color:#F2A0A0; 
+	color:#FFF;
+}
+.AThirdTheTrinity a h3, .AThirdTheTrinity a p {
+	color:#FFF;
+}
+.TheProblemWithWomen {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#A5877F), to(#b8a59f)); 
+	background-color:#A5877F;
+	color:#433532;
+}
+.TheProblemWithWomen a h3, .TheProblemWithWomen a p {
+	color:#433532;
+}
+.TheTrade {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF4E9), to(#fff9f3)); 
+	background-color:#FFF4E9;
+	color:#646963;
+}
+.TheTrade a h3, .TheTrade a p {
+	color:#646963;
+}
+.choices h4 {
+	margin:0 0 10px 0;
+}

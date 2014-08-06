@@ -1,0 +1,117 @@
+#GBTCTitle {
+	margin:0 auto;
+	text-align:center;
+}
+#create-portfolio.thumbnails {
+	width: 500px !important;
+	float: right !important;
+}
+#content {
+	margin-bottom: 40px !important;
+}
+.intro {
+	padding: 20px 0;
+}
+#BigProjects {
+	float:left;
+	width:450px;
+	background-color:#dcdcde;
+	margin-top: 65px;
+	box-shadow:inset 0 0 10px #AAA;
+	padding-bottom: 10px;
+}
+#BigProjects img {
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#BigProjects p {
+	float:left;
+	padding: 35px 10px 0 0;
+	color:#333;
+	width:155px;
+}
+.ProjectItem {
+	float:left;
+	position: relative;
+}
+.ProjTitle {
+	font-size:14px;
+	font-weight:bold;
+}
+.DescText {
+	display:block;
+	font-size:11px;
+	padding-top:15px;
+}
+.ComingSoonDisclaimer {
+	position: absolute;
+	font-size: 85px;
+	opacity: .5;
+	text-align: center;
+	margin-top: 58px;
+	color: #4b728f;
+}
+.left-column > h3 {
+	font-size:32px !important;
+	background: white;
+	color: #2B2B2B;
+	margin: 0 auto !important;
+	width:100%;
+	text-align:center;
+}
+.left-column {
+	width:500px !important;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.content p {
+	font-size:13px;
+	line-height: 190%;
+	text-align:justify;
+	color:#1b1b1b;
+}
+.commentary {
+	font-size:11px;
+	color:#2B2B2B;
+	font-style: italic;
+}
+.post-comment textarea {
+	width: 360px !important;
+}
+.stars {
+	display:block;
+	text-align:center;
+}
+.post-comment {
+	background:none !important;
+	color:#aaa;
+}
+.post-comment h3 {
+	font-size:32px !important;
+	background: white;
+	color: #2B2B2B !important;
+	margin: 0 auto !important;
+	padding-bottom:10px;
+}
+.post-comment .form-submit input {
+	color: #2B2B2B !important;
+}
+.post-comment p {
+	margin: 0 !important;
+}
+#socialBanner {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEEEEE;
+	text-align: left;
+	width: 960px;
+}
+#socialBanner .twitter-share-button {
+	padding-right:10px;
+}
+#header {
+	margin: 0 auto;
+	width:960px;
+	padding: 30px 0 10px !important;
+}
