@@ -17,6 +17,9 @@ body, h1, h2, h3, h4, h5 {
 h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
+h5 {
+  font-size: .95rem
+}
 #header {
   margin-top: 40px;
 }
@@ -192,10 +195,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .book_details {
-  height: 108px;
-  padding: 0 40px;
+  height: 114px;
+  padding: 0 46px;
   position: relative;
   top: -18px;
+
 }
 .date {
   color: #999999;
@@ -209,6 +213,7 @@ h1, h2, h3, h4, h5 {
   color: #222;
   margin-bottom: 0;
   line-height: 1.4;
+  font-size: .8rem;
 }
 
 
@@ -267,7 +272,6 @@ h1, h2, h3, h4, h5 {
     width: 32px;
   }
   h5 {
-    font-size: 1rem;
     margin-top: 0.1rem;
     margin-bottom: 0.3rem;
   }
@@ -298,7 +302,6 @@ h1, h2, h3, h4, h5 {
   left: -16px;
   }
   h5 {
-    font-size: .95rem;
     margin-top: 0.1rem;
     margin-bottom: 0.3rem;
   }
