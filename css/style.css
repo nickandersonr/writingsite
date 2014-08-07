@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 1rem;
     font-size: 1.10rem;
     line-height: 1.4;
-    max-width: 400px;
+    max-width: none;
     float: right;
     clear: both;
   }
