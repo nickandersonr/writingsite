@@ -104,13 +104,19 @@ h5 {
 /*---- MixItUp
             -----*/
 
-#sortfilter {
+#filter_row {
   margin-top: 20px;
+}
+
+#sortfilter {
+  margin: 0 auto;
   background: #dcdcde;
-  width: 340px;
+  width: 326px;
+  height: 60px;
   text-align: left;
   border-radius: 8px;
   padding-top: 10px;
+  padding-left: 7px;
   margin-bottom: 10px;
   border-left: 1px solid #a1a1a1;
   border-right: 1px solid #a1a1a1;
@@ -288,8 +294,11 @@ h5 {
   p {
     font-size: .75rem;
   }
-  #header, #blurb_row, #filter_row {
+  #header, #blurb_row {
     padding: 0 20px;
+  }
+  #filter_row {
+    padding: 0;
   }
   #blurb p {
     margin-bottom: .75rem;
