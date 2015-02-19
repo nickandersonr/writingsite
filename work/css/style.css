@@ -1,0 +1,120 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+.parallax-background {
+	/* background-color: #0078A0; */
+    background:  url("http://media.giphy.com/media/KNEuNnTlppwcM/giphy.gif");/*url("../img/leoture3_1389966694.gif")*/;
+    background-size: contain;
+    background-position: 0px -200px;
+	height: 620px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+}
+
+.intro-text {
+	/*font-size: 50px;*/
+	color: #fff;
+	text-align: center;
+	margin-top: /* 15% */ 7%;
+    font: bold 100px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    
+}
+.parallax-content {
+	max-width: 100%;
+	position: relative;
+	top: 500px;
+	padding: 50px;
+	font-size: 20px;
+	background-color: #fff;
+}              
+.quote-marks {
+  font-size: 100px;
+  font-family: Garamond;
+  color: #777;
+  line-height: 0.12;
+  margin-top: 40px;
+}
+
+.move-right {
+  position: relative;
+  text-align: right;
+}
+
+.quote {
+  border-radius: 5px;
+}
+
+.quote p {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 40em) {
+  .quote p {
+    padding-left: 20px;
+  }
+}
+
+.student {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.student .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 15px;
+}
+.student p {
+  position: relative;
+  top: 5px;
+}
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.student p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}              
+
+.testimonial-wrap {
+  float: left;
+  max-width: 350px;
+}              
+
+.left-off-canvas-toggle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: #FFF;
+    color: #000;
+    font-weight: bold;
+    z-index: 1;
+}
+
