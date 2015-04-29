@@ -369,6 +369,29 @@ h5 {
 }
 
 
+/*---- Publications
+            -----*/
+#pub_list {
+    list-style: none;
+  text-align: left;
+  margin-left: 103px;
+  margin-top: 52px;
+}
+#pub_list li {
+    float: left;
+    clear: both;
+    margin-bottom: 30px;
+}
+.pub_date {
+    font-weight: 800;
+    border-right: 2px solid;
+    padding-right: 8px;
+    margin-right: 8px;
+    display: block;
+    width: 115px;
+    text-align: right;
+    float: left;
+}
 
 
 
